@@ -1,0 +1,1 @@
+for f in `ls -1 unfiltered/`;do echo "$f";cp unfiltered/"$f" .; python pymol_align.py "$f";done
